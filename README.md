@@ -4,11 +4,11 @@ ping to keep connection alive
 
 Test library for https://github.com/esp8266/Arduino/issues/2330
 
-It pings the gateway every 5 seconds, and calls `ping_fault()` after 5 minutes of unsuccessful pings.
+It pings the gateway every 5 seconds, and calls `pingFault()` after 5 minutes of unsuccessful pings.
 
 Usage
 -----
-* define your own `void ping_fault (void)`
+* define your own `void pingFault (void)`
 * call `startPingAlive()` from `setup()` after wifi STA is connected.
 
 Notes

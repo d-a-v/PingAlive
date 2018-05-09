@@ -9,7 +9,7 @@
 
 #define PING_MAX_FAILED_MN  5    // minutes
 #define PING_DELAY          5000 // milliseconds
-extern void ping_fault (void);   // to de defined by user
+extern void pingFault (void);    // to de defined by user
 
 /////////////////////
 
@@ -27,7 +27,7 @@ extern uint8_t ping_should_stop;
 
 #define PING_ID             0x8266
 #define PING_MAX_LOST       (((PING_MAX_FAILED_MN) * 60000) / (PING_DELAY))
-#define PING_FAULT()        do { ping_fault(); } while (0)
+#define PING_FAULT()        do { pingFault(); } while (0)
 
 int ping_init (const ip_addr_t* ping_addr);
 

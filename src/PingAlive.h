@@ -15,7 +15,7 @@ inline void startPingAlive (uint32_t ipv4 = 0)
 }
 
 // to be defined by user
-extern void ping_fault (void);
+extern void pingFault (void);
 
 // informative variables
 extern uint16_t ping_seq_num_send;
