@@ -3,7 +3,7 @@
 // http://git.savannah.gnu.org/cgit/lwip/lwip-contrib.git/plain/apps/ping/ping.c?h=STABLE-2_0_1_RELEASE
 
 #include <lwip/arch.h>
-#include "pingalive.h"
+#include "PingAlive.h"
 
 /**
  * @file
