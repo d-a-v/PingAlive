@@ -1,0 +1,2 @@
+startPingAlive	KEYWORD1
+pingFault	KEYWORD1
